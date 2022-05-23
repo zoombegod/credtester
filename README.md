@@ -2,10 +2,6 @@
 
 # credtester 
 
-![](https://img.shields.io/github/stars/Summertime2022/credtester)
-![](https://img.shields.io/pypi/dd/credtester)
-![](https://img.shields.io/pypi/v/credtester)
-
 Credtester is a command-line tool that allows you to test the validity of username and password for multiple Microsoft services.
 <br>
 
