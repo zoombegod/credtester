@@ -1,0 +1,35 @@
+[tool.poetry]
+
+name = "credtester"
+version = "0.1.1"
+description = "Never blur report screenshots again!"
+authors = ["Summertime2022"]
+license = "GNUGPL"
+homepage = "https://github.com/Summertime2022/credtester"
+repository = "https://github.com/Summertime2022/credtester"
+include = ["LICENSE", "README.md"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+impacket = "^0.9.24"
+rich = "^12.2.0"
+click = "^8.1.2"
+ldap3 = "^2.9.1"
+arrow = "^1.2.2"
+logger = "^1.4"
+password-strength = "^0.0.3"
+exchangelib = "^4.7.2"
+requests_ntlm = "^1.1.0"
+adal = "^1.2.7"
+psutil = "^5.9.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+credtester = "credtester.credtester:cli"
+ct = "credtester.credtester:cli"
