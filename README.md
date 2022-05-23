@@ -26,8 +26,12 @@ Credtester is built for use in offensive security reporting. The tool has the fo
 
 Example output from the tool and its usage is shown below:
 
-![](https://github.com/Summertime2022/credtester/img/successful_auth_ews.gif)
-![](https://github.com/Summertime2022/credtester/img/failed_auth.gif)
+
+### Successful Authentication
+![](https://github.com/Summertime2022/credtester/blob/main/img/successful_auth_ews.gif)
+
+### Failed Authentication
+![](https://github.com/Summertime2022/credtester/blob/main/img/failed_auth.gif)
 
 **If authentication is successful, the plaintext password used will be replaced with `[REDACTED]`. If authentication fails, the entered plaintext password will be displayed**
 
@@ -102,7 +106,7 @@ Some notes on each module are below:
 
 The EWS module can be used to test for successful authentication while targeting Microsoft Exchange and Office365. If testing Exchange, the table displayed will be different dependent on if the user has a mailbox:
 
-![](https://github.com/Summertime2022/credtester/img/partial_success_ews.gif)
+![](https://github.com/Summertime2022/credtester/blob/main/img/partial_success_ews.png)
 
 If you are targeting O365, note that you will need to specify the target as:
 
@@ -142,9 +146,6 @@ Note the `--path` option shown above. If a path is not specified, the root of th
 
 ### SMB
 This module simply allows you to test credentials against an SMB service. Nothing else to note here. 
-
-
-<br>
 
 ## Coming Soon
 Some planned features coming in the next release:
