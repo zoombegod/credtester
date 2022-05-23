@@ -1,12 +1,13 @@
 [tool.poetry]
 
 name = "credtester"
-version = "0.1.1"
+version = "0.1.2"
 description = "Never blur report screenshots again!"
 authors = ["Summertime2022"]
 license = "GNUGPL"
 homepage = "https://github.com/Summertime2022/credtester"
 repository = "https://github.com/Summertime2022/credtester"
+readme = "README.md"
 include = ["LICENSE", "README.md"]
 
 [tool.poetry.dependencies]
